@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 
 # Ваш API ключ
-API_KEY = 'AIzaSyAUldUKjAAfXmdPlrpHa0Xa0RprNY8Wqks'
+API_KEY = 'YOUR_API_KEY'
 
 # Создание сервиса YouTube
 youtube = build('youtube', 'v3', developerKey=API_KEY)
